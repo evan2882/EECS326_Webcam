@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/webcam/assets/css/main.css" />
+</head>
+
+<body class="subpage">
+    <!-- Header -->
+    <header id="header">
+        <div class="logo"><a href="/webcam/index.html">Webcam <span>by Group 3</span></a></div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="/webcam/index.html">Home</a></li>
+            <li><a href="/webcam/info.html">Info</a></li>
+            <li><a href="/webcam/webcam.html">Webcam</a></li>
+            <li><a href="/webapp/index.html"target="_blank">Management System</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+    <section class="wrapper">
+						<div class="inner">
+							<header class="align-center">
+								<h1>Webcam</h1>
+								<p>Image Preview</p>
+							</header>
+
+        <input type="button" value= "Start Webcam" id="btnWS" title="Click to start webcam"/>
+        <p ></p>
+        <h3 id="timestamp">Time Stamp:</h3>
+        <p id="tp">time</p>
+
+        <img id="image" alt="My webcam image" width="640" height="480">
+
+        <h3>Log:</h3>
+
+        <textarea id="msg" rows="20" cols="50">Connecting to ws://10.106.5.107/stream ...
+Connected.
+</textarea>
+
+        <script src="/webcam/assets/js/webcam_functions.js"></script>
+
+        <div class="ginger-extension-writer" style="display: none;">
+            <div class="ginger-extension-writer-frame"><iframe src="chrome-extension://kdfieneakcjfaiglcfcgkidlkmlijjnh/writer/index.html"></iframe></div>
+        </div>
+
+        <body>
+            <!-- Scripts -->
+            <script src="/webcam/assets/js/jquery.min.js"></script>
+            <script src="/webcam/assets/js/jquery.scrolly.min.js"></script>
+            <script src="/webcam/assets/js/jquery.scrollex.min.js"></script>
+            <script src="/webcam/assets/js/skel.min.js"></script>
+            <script src="/webcam/assets/js/util.js"></script>
+            <script src="/webcam/assets/js/main.js"></script>
+
+</html>
